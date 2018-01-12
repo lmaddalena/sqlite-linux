@@ -1,1 +1,1 @@
-# TEST SQLITE3 C ON LINUX
+# How-to access sqlite database using c on linux
