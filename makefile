@@ -6,7 +6,7 @@ ODIR = bin
 PROG = a.out
 
 all: main.o sqlite3.o
-	$(CC) $(LDFLAGS) $(ODIR)/*.o -o $(ODIR)/$(PROG)
+	$(CC) $(ODIR)/*.o -o $(ODIR)/$(PROG) $(LDFLAGS)
 
 main.o: main.c
 	$(CC) $(CFLAGS) -c main.c -o $(ODIR)/main.o
